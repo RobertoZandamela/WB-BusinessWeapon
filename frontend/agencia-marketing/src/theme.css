@@ -1,0 +1,143 @@
+/* Estilos base para o Angular Material */
+:root {
+  --primary-color: #FFD700;    /* amarelo vibrante */
+  --text-color: #000000;       /* preto */
+  --background-color: #FFFFFF; /* branco */
+  --warn-color: #f44336;       /* vermelho para alertas */
+}
+
+/* Estilos para botões do Material */
+.mat-mdc-button.mat-primary,
+.mat-mdc-raised-button.mat-primary,
+.mat-mdc-fab.mat-primary,
+.mat-mdc-mini-fab.mat-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.mat-mdc-button.mat-accent,
+.mat-mdc-raised-button.mat-accent,
+.mat-mdc-fab.mat-accent,
+.mat-mdc-mini-fab.mat-accent {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  transition: all 0.3s ease;
+}
+
+.mat-mdc-button.mat-warn,
+.mat-mdc-raised-button.mat-warn,
+.mat-mdc-fab.mat-warn,
+.mat-mdc-mini-fab.mat-warn {
+  background-color: var(--warn-color);
+  color: var(--background-color);
+  transition: all 0.3s ease;
+}
+
+/* Hover states para botões */
+.mat-mdc-button:hover,
+.mat-mdc-raised-button:hover,
+.mat-mdc-fab:hover,
+.mat-mdc-mini-fab:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Estilos para cards */
+.mat-mdc-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--background-color);
+  transition: box-shadow 0.3s ease;
+}
+
+.mat-mdc-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para toolbar */
+.mat-toolbar {
+  padding: 0 16px;
+}
+
+.mat-toolbar.mat-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.mat-toolbar.mat-accent {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+/* Estilos para form fields */
+.mat-mdc-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.mat-mdc-form-field-appearance-outline .mat-mdc-form-field-outline {
+  color: var(--text-color);
+}
+
+.mat-mdc-form-field-label {
+  color: var(--text-color);
+}
+
+/* Estilos para inputs */
+.mat-mdc-input-element {
+  color: var(--text-color);
+}
+
+/* Estilos para ícones */
+.mat-icon {
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.mat-icon.primary {
+  color: var(--primary-color);
+}
+
+.mat-icon:hover {
+  opacity: 0.8;
+}
+
+/* Estilos para tabs */
+.mat-mdc-tab-header {
+  background-color: var(--background-color);
+}
+
+.mat-mdc-tab.mat-mdc-tab-active {
+  color: var(--primary-color);
+}
+
+.mat-mdc-tab-group.mat-primary .mat-mdc-ink-bar {
+  background-color: var(--primary-color);
+}
+
+/* Estilos para listas */
+.mat-mdc-list-item {
+  color: var(--text-color);
+}
+
+.mat-mdc-list-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Estilos para checkboxes e radio buttons */
+.mat-mdc-checkbox-checked.mat-primary .mat-mdc-checkbox-background,
+.mat-mdc-radio-button.mat-primary .mat-radio-inner-circle {
+  background-color: var(--primary-color);
+}
+
+/* Estilos para progress bars */
+.mat-mdc-progress-bar.mat-primary .mat-mdc-progress-bar-fill {
+  background-color: var(--primary-color);
+}
+
+/* Estilos para tooltips */
+.mat-mdc-tooltip {
+  background-color: var(--text-color);
+  color: var(--background-color);
+} 

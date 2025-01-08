@@ -1,86 +1,84 @@
-### **Página Portfólio – Conteúdo Atrativo**
+Página Portfólio – Conteúdo Atrativo
 
 ---
 
-#### **Seção 1: Introdução ao Portfólio**  
-**Título:**  
-*“Projetos que Transformam Marcas”*  
+Seção 1: Introdução ao Portfólio
+Título:
+"Projetos que Transformam Marcas"
 
-**Texto:**  
-Na Business Weapon, Lda, nosso trabalho é mais do que entregar resultados; é criar histórias de sucesso. Explore nosso portfólio e descubra como ajudamos empresas a se destacarem no ambiente digital, alcançando resultados extraordinários.  
+Texto:
+Na Business Weapon, Lda, nosso trabalho é mais do que entregar resultados; é criar histórias de sucesso. Explore nosso portfólio e descubra como ajudamos empresas a se destacarem no ambiente digital, alcançando resultados extraordinários.
 
-**CTA:**  
+CTA:
 - "Solicite uma Análise Personalizada para Seu Negócio"
 
 ---
 
-#### **Seção 2: Projetos em Destaque**  
-**Título:**  
-*“Impacto em Números”*  
+Seção 2: Projetos em Destaque
+Título:
+"Impacto em Números"
 
-**Exemplos de Projetos (Estrutura Sugerida):**  
-1. **Cliente X – E-commerce de Moda**  
-   - **Desafio:** Baixa conversão e pouca visibilidade online.  
-   - **Solução:** Implementação de SEO e campanhas de Google Ads direcionadas.  
-   - **Resultado:** Aumento de 150% no tráfego orgânico e 75% nas vendas em 6 meses.  
+Exemplos de Projetos (Estrutura Sugerida):
+1. Cliente X – E-commerce de Moda
+   - Desafio: Baixa conversão e pouca visibilidade online.
+   - Solução: Implementação de SEO e campanhas de Google Ads direcionadas.
+   - Resultado: Aumento de 150% no tráfego orgânico e 75% nas vendas em 6 meses.
 
-2. **Cliente Y – Restaurante Gourmet**  
-   - **Desafio:** Pouca interação nas redes sociais.  
-   - **Solução:** Estratégia de conteúdo criativo e engajamento com influenciadores locais.  
-   - **Resultado:** Crescimento de 200% no engajamento e aumento significativo no número de reservas.  
+2. Cliente Y – Restaurante Gourmet
+   - Desafio: Pouca interação nas redes sociais.
+   - Solução: Estratégia de conteúdo criativo e engajamento com influenciadores locais.
+   - Resultado: Crescimento de 200% no engajamento e aumento significativo no número de reservas.
 
-3. **Cliente Z – Startup de Tecnologia**  
-   - **Desafio:** Estabelecer presença no mercado.  
-   - **Solução:** Criação de site otimizado e campanhas de PPC no LinkedIn.  
-   - **Resultado:** Geração de 500 leads qualificados em 3 meses.
+3. Cliente Z – Startup de Tecnologia
+   - Desafio: Estabelecer presença no mercado.
+   - Solução: Criação de site otimizado e campanhas de PPC no LinkedIn.
+   - Resultado: Geração de 500 leads qualificados em 3 meses.
 
-**CTA:**  
+CTA:
 - "Veja Mais Casos de Sucesso"
 
 ---
 
-#### **Seção 3: Depoimentos**  
-**Título:**  
-*“O Que Nossos Clientes Dizem”*  
+Seção 3: Depoimentos
+Título:
+"O Que Nossos Clientes Dizem"
 
-**Texto:**  
-Nada nos deixa mais orgulhosos do que o sucesso dos nossos clientes. Confira alguns depoimentos:  
+Texto:
+Nada nos deixa mais orgulhosos do que o sucesso dos nossos clientes. Confira alguns depoimentos:
 
-- *“Graças à Business Weapon, nossa empresa alcançou novos patamares no digital. Eles são mais que parceiros; são aliados estratégicos.”* – Cliente X  
-- *“A equipe é extremamente profissional e os resultados foram além do esperado. Recomendo de olhos fechados!”* – Cliente Y  
+- "Graças à Business Weapon, nossa empresa alcançou novos patamares no digital. Eles são mais que parceiros; são aliados estratégicos." – Cliente X
+- "A equipe é extremamente profissional e os resultados foram além do esperado. Recomendo de olhos fechados!" – Cliente Y
 
-**CTA:**  
-- "Compartilhe Sua Experiência Conosco"  
-
----
-
-#### **Seção 4: Portfólio Visual (Galeria)**  
-**Título:**  
-*“Transformações em Destaque”*  
-
-**Texto:**  
-Explore nossa galeria de projetos e veja como transformamos a visão de nossos clientes em realidade.  
-
-**Estrutura da Galeria:**  
-- Imagens de antes e depois (design de sites, campanhas, posts, etc.)  
-- Vídeos de campanhas ou resultados alcançados.  
-
-**CTA:**  
-- "Descubra o Que Podemos Fazer por Sua Marca"  
+CTA:
+- "Compartilhe Sua Experiência Conosco"
 
 ---
 
-#### **Seção 5: Convite Final**  
-**Título:**  
-*“Pronto para Fazer Parte do Nosso Portfólio de Sucesso?”*  
+Seção 4: Portfólio Visual (Galeria)
+Título:
+"Transformações em Destaque"
 
-**Texto:**  
-Estamos prontos para ajudá-lo a alcançar resultados como esses. Entre em contato e comece sua jornada de sucesso digital com a Business Weapon, Lda.  
+Texto:
+Explore nossa galeria de projetos e veja como transformamos a visão de nossos clientes em realidade.
 
-**CTA (Botões):**  
-- "Solicite Seu Orçamento"  
-- "Agende uma Consultoria Gratuita"  
+Estrutura da Galeria:
+- Imagens de antes e depois (design de sites, campanhas, posts, etc.)
+- Vídeos de campanhas ou resultados alcançados.
+
+CTA:
+- "Descubra o Que Podemos Fazer por Sua Marca"
 
 ---
 
-Se precisar de mais detalhes ou ajustes para essa página, é só pedir!
+Seção 5: Convite Final
+Título:
+"Pronto para Fazer Parte do Nosso Portfólio de Sucesso?"
+
+Texto:
+Estamos prontos para ajudá-lo a alcançar resultados como esses. Entre em contato e comece sua jornada de sucesso digital com a Business Weapon, Lda.
+
+CTA (Botões):
+- "Solicite Seu Orçamento"
+- "Agende uma Consultoria Gratuita"
+
+---

@@ -1,92 +1,90 @@
-### **Página Contato – Conteúdo Atrativo**
+Página Contato – Conteúdo Atrativo
 
 ---
 
-#### **Seção 1: Introdução**  
-**Título:**  
-*“Estamos Aqui Para Ajudar!”*  
+Seção 1: Introdução
+Título:
+"Estamos Aqui Para Ajudar!"
 
-**Texto:**  
-Tem dúvidas, precisa de ajuda ou quer saber como a Business Weapon, Lda pode transformar seu negócio no ambiente digital? Entre em contato conosco! Nossa equipe está pronta para atender você.  
+Texto:
+Tem dúvidas, precisa de ajuda ou quer saber como a Business Weapon, Lda pode transformar seu negócio no ambiente digital? Entre em contato conosco! Nossa equipe está pronta para atender você.
 
-**CTA:**  
+CTA:
 - "Fale Conosco Agora"
 
 ---
 
-#### **Seção 2: Formulário de Contato**  
-**Título:**  
-*“Envie Sua Mensagem”*  
+Seção 2: Formulário de Contato
+Título:
+"Envie Sua Mensagem"
 
-**Formulário com os seguintes campos:**  
-- Nome  
-- E-mail  
-- Telefone (opcional)  
-- Assunto  
-- Mensagem  
+Formulário com os seguintes campos:
+- Nome
+- E-mail
+- Telefone (opcional)
+- Assunto
+- Mensagem
 
-**Botão de Envio:**  
-- "Enviar Mensagem"  
+Botão de Envio:
+- "Enviar Mensagem"
 
-**Nota:**  
-*“Responderemos em até 24 horas úteis.”*
-
----
-
-#### **Seção 3: Informações de Contato**  
-**Título:**  
-*“Fale Direto Conosco”*  
-
-**Informações:**  
-- **Endereço:** Rua [Endereço], Cidade, País  
-- **Telefone:** +[Código] [Número de Telefone]  
-- **E-mail:** contato@businessweapon.com  
-- **Horário de Funcionamento:** Segunda a Sexta, das 9h às 18h  
-
-**CTA:**  
-- "Ligue Agora"  
-- "Envie um E-mail"  
+Nota:
+"Responderemos em até 24 horas úteis."
 
 ---
 
-#### **Seção 4: Redes Sociais**  
-**Título:**  
-*“Conecte-se Conosco”*  
+Seção 3: Informações de Contato
+Título:
+"Fale Direto Conosco"
 
-**Texto:**  
-Siga-nos nas redes sociais e fique por dentro das novidades, tendências e dicas exclusivas de marketing digital.  
+Informações:
+- Endereço: Rua [Endereço], Cidade, País
+- Telefone: +[Código] [Número de Telefone]
+- E-mail: contato@businessweapon.com
+- Horário de Funcionamento: Segunda a Sexta, das 9h às 18h
 
-**Links e Ícones:**  
-- Facebook  
-- Instagram  
-- LinkedIn  
-- Twitter  
-
----
-
-#### **Seção 5: Mapa de Localização**  
-**Título:**  
-*“Visite Nosso Escritório”*  
-
-**Texto:**  
-Quer nos conhecer pessoalmente? Estamos de portas abertas para receber você.  
-
-**Elemento:**  
-Mapa interativo mostrando a localização exata da Business Weapon, Lda.  
+CTA:
+- "Ligue Agora"
+- "Envie um E-mail"
 
 ---
 
-#### **Seção 6: Convite Final**  
-**Título:**  
-*“Pronto Para Impulsionar Seu Negócio?”*  
+Seção 4: Redes Sociais
+Título:
+"Conecte-se Conosco"
 
-**Texto:**  
-Entre em contato e descubra como nossas soluções podem fazer a diferença para sua empresa. Estamos ansiosos para trabalhar com você!  
+Texto:
+Siga-nos nas redes sociais e fique por dentro das novidades, tendências e dicas exclusivas de marketing digital.
 
-**CTA (Botões):**  
-- "Solicite uma Consultoria Gratuita"  
-- "Agende Uma Reunião"  
+Links e Ícones:
+- Facebook
+- Instagram
+- LinkedIn
+- Twitter
 
 ---
 
-Se precisar ajustar ou adicionar algo, estou à disposição!
+Seção 5: Mapa de Localização
+Título:
+"Visite Nosso Escritório"
+
+Texto:
+Quer nos conhecer pessoalmente? Estamos de portas abertas para receber você.
+
+Elemento:
+Mapa interativo mostrando a localização exata da Business Weapon, Lda.
+
+---
+
+Seção 6: Convite Final
+Título:
+"Pronto Para Impulsionar Seu Negócio?"
+
+Texto:
+Entre em contato e descubra como nossas soluções podem fazer a diferença para sua empresa. Estamos ansiosos para trabalhar com você!
+
+CTA (Botões):
+- "Solicite uma Consultoria Gratuita"
+- "Agende Uma Reunião"
+
+---

@@ -1,25 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* Importação do tema do Angular Material (caso não esteja em angular.json) */
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Variáveis globais de cores */
+:root {
+  --primary-color: #FFD700;    /* amarelo vibrante */
+  --text-color: #000000;       /* preto */
+  --background-color: #FFFFFF; /* branco */
+  --warn-color: #f44336;       /* vermelho para alertas */
+  
+  /* Variações do amarelo */
+  --primary-light: #fff3cc;
+  --primary-dark: #ccac00;
+  
+  /* Variações do preto */
+  --text-light: rgba(0,0,0,0.54);
+  --text-dark: #000000;
+}
 
 /* Reset e estilos base */
 html, 
 body { 
   height: 100%;
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
 }
 
-/* Variáveis globais de cores */
-:root {
-  --primary-color: #3f51b5;    /* cor principal */
-  --accent-color: #ff4081;     /* cor de destaque */
-  --warn-color: #f44336;       /* cor de aviso */
-  --text-color: rgba(0,0,0,0.87);
-  --text-light: rgba(0,0,0,0.54);
-  --background-color: #fafafa;
+/* Estilos para títulos */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--text-color);
 }
+
+/* Estilos para botões */
+.btn {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 12px 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-dark);
+  transform: scale(1.05);
+}
+
+/* Estilo para o footer */
+footer {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  padding: 2rem 0;
+}
+
+/* Classes de utilidade */
+.primary-bg { background-color: var(--primary-color); }
+.text-bg { background-color: var(--text-color); }
+.bg-white { background-color: var(--background-color); }
+
+.primary-text { color: var(--primary-color); }
+.dark-text { color: var(--text-color); }
+.light-text { color: var(--background-color); }
 
 /* Estilos globais */
 body {
@@ -116,3 +166,6 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
