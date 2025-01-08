@@ -1,0 +1,118 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importação do tema do Angular Material (caso não esteja em angular.json) */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Reset e estilos base */
+html, 
+body { 
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Variáveis globais de cores */
+:root {
+  --primary-color: #3f51b5;    /* cor principal */
+  --accent-color: #ff4081;     /* cor de destaque */
+  --warn-color: #f44336;       /* cor de aviso */
+  --text-color: rgba(0,0,0,0.87);
+  --text-light: rgba(0,0,0,0.54);
+  --background-color: #fafafa;
+}
+
+/* Estilos globais */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Estilos úteis */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Classes de largura responsiva */
+.w-100 { width: 100%; }
+.w-75 { width: 75%; }
+.w-50 { width: 50%; }
+.w-25 { width: 25%; }
+
+/* Padding helpers */
+.px-1 { padding-left: 0.5rem; padding-right: 0.5rem; }
+.px-2 { padding-left: 1rem; padding-right: 1rem; }
+.px-3 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.px-4 { padding-left: 2rem; padding-right: 2rem; }
+
+/* Grid system simplificado */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+
+/* Responsividade melhorada */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .grid-cols-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-cols-3 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    padding: 0 1rem;
+  }
+  .grid-cols-2 { grid-template-columns: 1fr; }
+  
+  /* Ajustes de largura responsiva */
+  .w-50, .w-75 { width: 100%; }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .grid-cols-4,
+  .grid-cols-3 { 
+    grid-template-columns: 1fr; 
+  }
+}
+
+/* Espaçamentos padrão */
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mt-4 { margin-top: 2rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.mb-4 { margin-bottom: 2rem; }
+
+/* Flexbox helpers */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

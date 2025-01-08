@@ -1,0 +1,165 @@
+.about-container {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1a237e 0%, #3f51b5 100%);
+  color: white;
+  padding: 8rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-section .subtitle {
+  font-size: 1.5rem;
+  opacity: 0.9;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title h2 {
+  color: #1a237e;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.history-content {
+  background: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.mission-card, .vision-card {
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background: white;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background: white;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.team-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #1a237e 0%, #3f51b5 100%);
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+/* Hover Effects */
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(26, 35, 126, 0.15);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .hero-section {
+    padding: 6rem 1.5rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  
+  .section {
+    padding: 5rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section .subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .section-title h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 4rem 1rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .values-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section {
+    padding: 4rem 0;
+  }
+}

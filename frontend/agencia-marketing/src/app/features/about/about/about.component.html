@@ -1,0 +1,115 @@
+<div class="about-container">
+  <section class="hero-section" @fadeIn>
+    <div class="content-wrapper">
+      <h1>Sobre Nós</h1>
+      <p class="subtitle">Transformando o panorama digital das empresas</p>
+    </div>
+  </section>
+
+  <section class="section" @fadeInUp>
+    <div class="content-wrapper">
+      <div class="section-title">
+        <h2>A Nossa História</h2>
+      </div>
+      <div class="history-content mat-elevation-z0">
+        <p><strong>Fundada em 2024, a Business Weapon Agency nasceu com a missão de transformar o panorama 
+            digital das empresas em Moçambique e além-fronteiras.</strong> Desde o início, a agência se 
+            destacou pela sua abordagem inovadora e focada em resultados, adaptando-se rapidamente às 
+            mudanças constantes do ambiente digital.</p> <p><strong>O nosso fundador, Roberto Admiro Zandamela, 
+                identificou uma lacuna no mercado:</strong> muitas empresas estavam a lutar para se destacar no 
+                crescente mundo online, enfrentando desafios para atrair e engajar clientes. Com uma vasta experiência
+                 em marketing digital e uma paixão pela tecnologia, Roberto decidiu criar uma agência que fosse mais 
+                 do que um simples prestador de serviços, mas sim um parceiro estratégico para os seus clientes.</p> 
+                 <p><strong>Com uma visão clara e uma equipa talentosa, decidimos criar uma agência que oferece 
+                    soluções personalizadas de marketing digital, desenhadas para gerar resultados tangíveis.</strong> 
+                    A nossa equipa é composta por profissionais especializados em diversas áreas, incluindo SEO, 
+                    publicidade online, gestão de redes sociais, criação de conteúdo e design gráfico. 
+                    Essa diversidade de competências permite-nos criar estratégias integradas e eficazes, 
+                    adaptadas às necessidades específicas de cada cliente.</p> <p>Na Business Weapon Agency, acreditamos 
+                    que cada empresa tem uma história única para contar, e o nosso trabalho é ajudar a contar essa 
+                    história de uma maneira que ressoe com o público-alvo. <strong>Trabalhamos de perto com os nossos 
+                    clientes, oferecendo um serviço personalizado e atento, para garantir que as suas campanhas de 
+                    marketing digital não apenas atinjam, mas superem os seus objetivos.</strong></p> <p>Desde a nossa 
+                    fundação, temos ajudado inúmeras empresas a aumentar a sua presença online, a captar novos clientes 
+                    e a impulsionar as suas vendas. <strong>O nosso compromisso com a excelência e a inovação é o que 
+                    nos diferencia no mercado, e estamos constantemente a procurar novas formas de melhorar os nossos 
+                    serviços e de oferecer valor aos nossos clientes.</strong></p> <p>Estamos orgulhosos do impacto que 
+                    temos tido até agora e estamos entusiasmados com o futuro, pois continuamos a expandir os nossos 
+                    serviços e a explorar novas oportunidades no mundo digital. Na Business Weapon Agency, o nosso 
+                    objetivo é não apenas acompanhar as tendências, mas também definir o futuro do marketing digital.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" @fadeInUp>
+    <div class="content-wrapper">
+      <div class="grid-container">
+        <mat-card class="mission-card card-hover">
+          <mat-card-content>
+            <mat-icon class="feature-icon">rocket_launch</mat-icon>
+            <h3>A Nossa Missão</h3>
+            <p>A nossa missão é simples: ajudar as empresas a crescer no ambiente digital através de estratégias 
+                inovadoras, personalizadas e orientadas para resultados. Acreditamos que cada negócio é único e, 
+                por isso, merece uma abordagem que respeite a sua identidade, valores e objectivos.</p>
+          </mat-card-content>
+        </mat-card>
+
+        <mat-card class="vision-card card-hover">
+          <mat-card-content>
+            <mat-icon class="feature-icon">visibility</mat-icon>
+            <h3>A Nossa Visão</h3>
+            <p>Queremos ser a agência de marketing digital de referência em Portugal e além-fronteiras, 
+                reconhecida pela excelência, inovação e pelos resultados que entregamos aos nossos clientes. 
+                Estamos comprometidos em manter-nos na vanguarda das tendências e tecnologias digitais, 
+                garantindo que os nossos clientes têm sempre uma vantagem competitiva.</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" @fadeInUp>
+    <div class="content-wrapper">
+      <div class="section-title">
+        <h2>Os Nossos Valores</h2>
+      </div>
+      <div class="values-grid">
+        <mat-card class="value-card card-hover" *ngFor="let value of values">
+          <mat-card-content>
+            <mat-icon class="feature-icon">{{value.icon}}</mat-icon>
+            <h3>{{value.title}}</h3>
+            <p>{{value.description}}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" @fadeInUp>
+    <div class="content-wrapper">
+      <div class="section-title">
+        <h2>A Nossa Equipa</h2>
+      </div>
+      <div class="team-grid">
+        <mat-card class="team-card card-hover" *ngFor="let member of team">
+          <mat-card-content>
+            <mat-icon class="feature-icon">{{member.icon}}</mat-icon>
+            <h3>{{member.role}}</h3>
+            <p>{{member.description}}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" @fadeInUp>
+    <div class="content-wrapper">
+      <h2>Vamos Conversar!</h2>
+      <p>Estamos ansiosos para conhecer mais sobre o seu negócio e discutir como podemos ajudar.</p>
+      <button mat-raised-button color="primary" routerLink="/contact">
+        Agende uma Consulta Gratuita
+        <mat-icon>arrow_forward</mat-icon>
+      </button>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,49 @@
+ **Business Weapon Agency**, 
+
+### **Cores**  
+- **Amarelo vibrante (#FFD700):**  
+  Usado como cor de fundo em seções principais e como destaque para botões e elementos importantes.  
+- **Preto (#000000):**  
+  Usado para textos, títulos e ícones para contraste claro e profissional.  
+- **Branco (#FFFFFF):**  
+  Usado para fundos de texto, mantendo uma leitura limpa e profissional.
+
+---
+
+### **Tipografia**  
+- **Fonte Principal:**  
+  Use uma fonte moderna e sem serifa, como *Montserrat* ou *Poppins*, para criar um visual elegante e contemporâneo.  
+- **Estilo dos Títulos:**  
+  Títulos em negrito e caixa alta para transmitir força e confiança.  
+- **Texto Corporativo:**  
+  Tamanho médio, alinhado à esquerda, para facilitar a leitura.
+
+---
+
+### **Estilo Visual**  
+- **Minimalismo com Impacto:**  
+  Seguir um design limpo, com seções bem organizadas e foco no conteúdo.  
+- **Elementos Gráficos:**  
+  - Ícones simples em preto para complementar a identidade visual.  
+  - Usar detalhes geométricos que remetam ao logotipo.  
+- **Imagens:**  
+  Fotos de alta qualidade relacionadas a tecnologia, inovação e negócios.
+
+---
+
+### **Layout Geral**  
+1. **Topo do Site:**  
+   - Logotipo no canto esquerdo.  
+   - Menu principal no lado direito, com botões destacados em amarelo.  
+
+2. **Botões e CTAs:**  
+   - Botões com fundo amarelo e texto preto.  
+   - Animações suaves ao passar o cursor (hover).  
+
+3. **Rodapé:**  
+   - Fundo preto com texto em branco.  
+   - Links rápidos, informações de contato e ícones de redes sociais.  
+
+---
+
+Se precisar de mais ajustes ou diretrizes adicionais, posso complementar!

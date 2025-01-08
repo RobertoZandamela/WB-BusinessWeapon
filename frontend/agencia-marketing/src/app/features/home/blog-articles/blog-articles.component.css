@@ -1,0 +1,113 @@
+.blog-articles {
+  padding: 1rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a237e;
+  font-weight: 600;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(45deg, #1a237e, #3f51b5);
+  border-radius: 2px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.article-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+}
+
+.article-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.article-title {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  color: #1a237e;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.article-excerpt {
+  color: #555;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+mat-card-image {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover mat-card-image {
+  transform: scale(1.05);
+}
+
+mat-card-content {
+  padding: 1.5rem;
+}
+
+mat-card-actions {
+  padding: 0 1.5rem 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cta-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cta-container button {
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .blog-articles {
+    padding: 2rem 1rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .articles-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

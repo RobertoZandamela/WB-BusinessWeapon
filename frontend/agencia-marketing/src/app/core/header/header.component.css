@@ -1,0 +1,125 @@
+/* src/app/core/header/header.component.css */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.nav-desktop {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-desktop a {
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-desktop a.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.cta-button {
+  margin-left: 1rem;
+  padding: 0 1.5rem;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+/* Animações */
+.nav-desktop a {
+  transition: all 0.3s ease;
+}
+
+.nav-desktop a:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsividade */
+@media (max-width: 960px) {
+  .nav-desktop {
+    gap: 0.25rem;
+  }
+  
+  .cta-button {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-desktop,
+  .cta-button {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .header-content {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Estilos para o menu mobile */
+::ng-deep .mat-menu-panel {
+  max-width: none !important;
+  width: 100vw;
+  margin-top: 0.5rem;
+}
+
+::ng-deep .mat-menu-content {
+  padding: 1rem 0 !important;
+}
+
+::ng-deep .mat-menu-item {
+  height: 48px !important;
+  line-height: 48px !important;
+}
+
+.cta-mobile {
+  color: var(--primary-color) !important;
+  font-weight: 500;
+}
+
+/* Efeito de elevação ao scroll */
+.header.elevated {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+  

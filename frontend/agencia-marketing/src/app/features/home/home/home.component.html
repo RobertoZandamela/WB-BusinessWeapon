@@ -1,0 +1,58 @@
+<div class="home-container">
+  <!-- Banner Principal -->
+  <section class="section">
+    <app-banner></app-banner>
+  </section>
+
+  <!-- Por que nos escolher -->
+  <section class="section" id="why-choose-us">
+    <div class="container">
+      <app-why-choose-us></app-why-choose-us>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Serviços em Destaque -->
+  <section class="section section-alternate" id="services">
+    <div class="container">
+      <app-featured-services></app-featured-services>
+    </div>
+  </section>
+
+  <!-- Histórias de Sucesso -->
+  <section class="section" id="success-stories">
+    <div class="container">
+      <app-success-stories></app-success-stories>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="section section-alternate" id="testimonials">
+    <div class="container">
+      <app-testimonials></app-testimonials>
+    </div>
+  </section>
+
+  <!-- Clientes e Parceiros -->
+  <section class="section" id="clients">
+    <div class="container">
+      <app-clients-partners></app-clients-partners>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section class="section section-alternate" id="blog">
+    <div class="container">
+      <app-blog-articles></app-blog-articles>
+    </div>
+  </section>
+
+  <!-- Botão Scroll to Top -->
+  <div class="scroll-indicator" 
+       [class.visible]="showScrollButton"
+       (click)="scrollToSection('top')"
+       [@fadeInOut]>
+    <mat-icon>keyboard_arrow_up</mat-icon>
+  </div>
+</div>

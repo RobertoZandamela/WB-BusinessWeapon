@@ -1,0 +1,26 @@
+<section class="featured-services">
+  <div class="content-wrapper">
+    <header class="section-header" @fadeInUp>
+      <h2>Serviços em Destaque</h2>
+      <p>Soluções completas e inovadoras para impulsionar seu negócio digital</p>
+    </header>
+
+    <div class="services-grid">
+      <mat-card class="service-card" *ngFor="let service of services" @fadeInUp>
+        <mat-card-content>
+          <div class="icon-container">
+            <mat-icon>{{service.icon}}</mat-icon>
+          </div>
+          <h3>{{service.title}}</h3>
+          <p>{{service.description}}</p>
+          <mat-card-actions>
+            <a mat-raised-button color="primary" [routerLink]="service.link">
+              Saiba Mais
+              <mat-icon>arrow_forward</mat-icon>
+            </a>
+          </mat-card-actions>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>

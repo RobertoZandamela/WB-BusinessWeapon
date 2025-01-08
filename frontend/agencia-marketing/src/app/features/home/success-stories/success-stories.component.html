@@ -1,0 +1,27 @@
+<section class="success-stories">
+  <h2 class="section-title">Casos de Sucesso</h2>
+  <div class="projects-grid">
+    <mat-card class="project-card" *ngFor="let project of projects">
+      <mat-card-header>
+        <div class="category-icon" [ngStyle]="getIconStyle(project.color)">
+          <mat-icon>{{ project.icon }}</mat-icon>
+        </div>
+        <mat-card-title>{{ project.name }}</mat-card-title>
+        <mat-card-subtitle>{{ project.category }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ project.description }}</p>
+        <div class="metrics" [style.color]="project.color">
+          <mat-icon>trending_up</mat-icon>
+          <span>{{ project.metrics }}</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="cta-container">
+    <button mat-raised-button color="primary" routerLink="/portfolio">
+      <span>Ver Mais Casos</span>
+      <mat-icon>arrow_forward</mat-icon>
+    </button>
+  </div>
+</section>

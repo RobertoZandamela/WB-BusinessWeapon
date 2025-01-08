@@ -1,0 +1,23 @@
+<section class="why-choose-us">
+  <div class="content-wrapper">
+    <header class="section-header" @fadeInUp>
+      <h2>Por que Escolher a Business Weapon?</h2>
+      <p>Transformamos sua presença digital com soluções inovadoras e resultados comprovados</p>
+    </header>
+
+    <div class="features-grid">
+      <mat-card class="feature-card mat-elevation-z0" 
+                *ngFor="let feature of features; let i = index" 
+                @fadeInUp 
+                [style.animation-delay]="i * 200 + 'ms'">
+        <mat-card-content>
+          <div class="icon-container">
+            <mat-icon [fontSet]="'material-icons-outlined'">{{feature.icon}}</mat-icon>
+          </div>
+          <h3>{{feature.title}}</h3>
+          <p>{{feature.description}}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>

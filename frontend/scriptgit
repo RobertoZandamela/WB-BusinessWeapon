@@ -1,0 +1,14 @@
+# Inicializar o repositório Git na pasta do seu projeto
+git init
+
+# Adicionar todos os arquivos para serem rastreados
+git add .
+
+# Criar o primeiro commit
+git commit -m "Primeiro commit"
+
+# Adicionar o repositório remoto (substitua com a URL do seu repositório)
+git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+
+# Enviar o código para o GitHub
+git push -u origin main

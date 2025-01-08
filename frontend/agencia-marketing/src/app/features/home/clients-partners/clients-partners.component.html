@@ -1,0 +1,47 @@
+<section class="clients-partners">
+  <mat-card class="main-card">
+    <div class="section-header">
+      <h2>Nossos Clientes e Parceiros</h2>
+      <p class="subtitle">Empresas líderes que confiam em nossa expertise</p>
+      <mat-divider class="divider"></mat-divider>
+    </div>
+
+    <div class="category-filters">
+      <button mat-stroked-button 
+              (click)="filterByCategory(null)"
+              class="filter-btn"
+              color="primary">
+        Todos
+      </button>
+      <button mat-stroked-button 
+              *ngFor="let category of categories"
+              (click)="filterByCategory(category)"
+              class="filter-btn"
+              color="primary">
+        {{category}}
+      </button>
+    </div>
+
+    <div class="partners-grid" [@staggerAnimation]="filteredPartners.length">
+      <div class="logo-container" *ngFor="let partner of filteredPartners">
+        <div class="logo-wrapper" 
+             [matTooltip]="partner.description"
+             matTooltipPosition="above">
+          <img [src]="partner.logoUrl" 
+               [alt]="partner.name" 
+               loading="lazy" />
+          <div class="partner-info">
+            <h3>{{partner.name}}</h3>
+            <span class="category">{{partner.category}}</span>
+            <button mat-button 
+                    color="primary" 
+                    class="visit-btn"
+                    (click)="visitWebsite(partner.website)">
+              Visitar Site
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</section>

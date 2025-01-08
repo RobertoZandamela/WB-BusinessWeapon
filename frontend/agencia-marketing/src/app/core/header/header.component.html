@@ -1,0 +1,42 @@
+<mat-toolbar class="header">
+  <div class="container header-content">
+    <!-- Logo -->
+    <a routerLink="/" class="logo">
+      <img src="assets/logo.jpeg" alt="Business Weapon Agency Logo" />
+    </a>
+
+    <!-- Menu Desktop -->
+    <nav class="nav-desktop">
+      <a mat-button routerLink="/" routerLinkActive="active">Home</a>
+      <a mat-button routerLink="/about" routerLinkActive="active">Sobre Nós</a>
+      <a mat-button routerLink="/services" routerLinkActive="active">Serviços</a>
+      <a mat-button routerLink="/portfolio" routerLinkActive="active">Portfólio</a>
+      <a mat-button routerLink="/blog" routerLinkActive="active">Blog</a>
+      <a mat-button routerLink="/contact" routerLinkActive="active">Contato</a>
+    </nav>
+
+    <!-- CTA Button -->
+    <button mat-raised-button color="primary" class="cta-button" routerLink="/contact">
+      Peça uma Consulta
+    </button>
+
+    <!-- Menu Mobile -->
+    <button mat-icon-button class="menu-mobile" [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <mat-menu #menu="matMenu">
+      <a mat-menu-item routerLink="/">Home</a>
+      <a mat-menu-item routerLink="/about">Sobre Nós</a>
+      <a mat-menu-item routerLink="/services">Serviços</a>
+      <a mat-menu-item routerLink="/portfolio">Portfólio</a>
+      <a mat-menu-item routerLink="/blog">Blog</a>
+      <a mat-menu-item routerLink="/contact">Contato</a>
+      <mat-divider></mat-divider>
+      <a mat-menu-item routerLink="/contact" class="cta-mobile">
+        <mat-icon>phone</mat-icon>
+        Peça uma Consulta
+      </a>
+    </mat-menu>
+  </div>
+</mat-toolbar>

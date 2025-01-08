@@ -1,0 +1,148 @@
+.home-container {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #fafafa;
+}
+
+/* Seções com animação de entrada */
+.section {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  padding: 5rem 0;
+}
+
+.section-alternate {
+  background: linear-gradient(135deg, #1a237e 0%, #3f51b5 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-alternate::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/images/pattern.png');
+  opacity: 0.05;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Divisor personalizado */
+.section-divider {
+  height: 4px;
+  background: linear-gradient(90deg, #1a237e, #3f51b5);
+  border: none;
+  margin: 0;
+  opacity: 0.1;
+}
+
+/* Scroll to top button */
+.scroll-indicator {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  background-color: #1a237e;
+  color: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.scroll-indicator.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-indicator:hover {
+  background-color: #3f51b5;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  
+  .section {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .scroll-indicator {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .section {
+    padding: 2.5rem 0;
+  }
+}
+
+/* Loading States */
+.skeleton-loader {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

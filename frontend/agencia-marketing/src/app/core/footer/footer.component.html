@@ -1,0 +1,84 @@
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>Links Rápidos</h3>
+      <mat-nav-list>
+        <a mat-list-item routerLink="/">
+          <mat-icon>home</mat-icon>
+          Home
+        </a>
+        <a mat-list-item routerLink="/about">
+          <mat-icon>info</mat-icon>
+          Sobre Nós
+        </a>
+        <a mat-list-item routerLink="/services">
+          <mat-icon>build</mat-icon>
+          Serviços
+        </a>
+        <a mat-list-item routerLink="/portfolio">
+          <mat-icon>work</mat-icon>
+          Portfólio
+        </a>
+        <a mat-list-item routerLink="/blog">
+          <mat-icon>article</mat-icon>
+          Blog
+        </a>
+        <a mat-list-item routerLink="/contact">
+          <mat-icon>contact_mail</mat-icon>
+          Contato
+        </a>
+      </mat-nav-list>
+    </div>
+
+    <div class="footer-section">
+      <h3>Contato</h3>
+      <mat-list>
+        <mat-list-item>
+          <mat-icon matListItemIcon>phone</mat-icon>
+          <span matListItemTitle>(258) 82 0276 626</span>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>email</mat-icon>
+          <span matListItemTitle>contato&#64;businessweapon.co.mz</span>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>location_on</mat-icon>
+          <span matListItemTitle>Rua Exemplo, 123 - Maputo, MO</span>
+        </mat-list-item>
+      </mat-list>
+    </div>
+
+    <div class="footer-section">
+      <h3>Redes Sociais</h3>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <mat-icon>facebook</mat-icon>
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <mat-icon>photo_camera</mat-icon>
+        </a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+          <mat-icon>business_center</mat-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <form (ngSubmit)="subscribeNewsletter($event)" class="newsletter-form">
+        <mat-form-field appearance="outline">
+          <mat-label>Seu e-mail</mat-label>
+          <input matInput type="email" placeholder="email@exemplo.com" required>
+          <mat-icon matSuffix>mail_outline</mat-icon>
+        </mat-form-field>
+        <button mat-raised-button type="submit">
+          <mat-icon>send</mat-icon>
+          Inscrever-se
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Business Weapon. Todos os direitos reservados.</p>
+  </div>
+</footer>
